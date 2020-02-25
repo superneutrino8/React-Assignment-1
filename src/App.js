@@ -22,7 +22,7 @@ class App extends Component {
     return (
       <div className="App">
         <UserInput typed={this.changeName} />
-        <button onClick='this.changeName'>Change UserName</button>
+        <button onClick={this.changeName}>Change UserName</button>
         <UserOutput userName={this.state.userName} />
       </div>
     );
